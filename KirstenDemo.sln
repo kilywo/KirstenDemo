@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KirstenDemo", "KirstenDemo.csproj", "{196329A1-43DF-4A44-94E6-66B5BD2B9C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KirstenDemoTests", "..\KirstenDemoTests\KirstenDemoTests.csproj", "{A8DDF7EC-92E9-4026-89FC-E24D8B34F292}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{196329A1-43DF-4A44-94E6-66B5BD2B9C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196329A1-43DF-4A44-94E6-66B5BD2B9C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196329A1-43DF-4A44-94E6-66B5BD2B9C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196329A1-43DF-4A44-94E6-66B5BD2B9C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8DDF7EC-92E9-4026-89FC-E24D8B34F292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8DDF7EC-92E9-4026-89FC-E24D8B34F292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8DDF7EC-92E9-4026-89FC-E24D8B34F292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8DDF7EC-92E9-4026-89FC-E24D8B34F292}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E61414D-4859-4D54-BB39-48A21E393235}
+	EndGlobalSection
+EndGlobal

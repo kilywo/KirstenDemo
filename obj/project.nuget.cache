@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xLB4mAd/n94efQGFq4uM3/bMyinunWbGkKODIN97YsjoHlPnNTPiQnhiYuJT89nDYcpIBDKcbOsn4NadXcv83Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemo\\KirstenDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ybu8eb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

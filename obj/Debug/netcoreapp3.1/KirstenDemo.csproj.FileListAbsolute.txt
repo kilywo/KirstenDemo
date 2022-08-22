@@ -1,0 +1,13 @@
+C:\Users\ybu8eb\source\repos\KirstenDemo\bin\Debug\netcoreapp3.1\KirstenDemo.exe
+C:\Users\ybu8eb\source\repos\KirstenDemo\bin\Debug\netcoreapp3.1\KirstenDemo.deps.json
+C:\Users\ybu8eb\source\repos\KirstenDemo\bin\Debug\netcoreapp3.1\KirstenDemo.runtimeconfig.json
+C:\Users\ybu8eb\source\repos\KirstenDemo\bin\Debug\netcoreapp3.1\KirstenDemo.runtimeconfig.dev.json
+C:\Users\ybu8eb\source\repos\KirstenDemo\bin\Debug\netcoreapp3.1\KirstenDemo.dll
+C:\Users\ybu8eb\source\repos\KirstenDemo\bin\Debug\netcoreapp3.1\KirstenDemo.pdb
+C:\Users\ybu8eb\source\repos\KirstenDemo\obj\Debug\netcoreapp3.1\KirstenDemo.AssemblyInfoInputs.cache
+C:\Users\ybu8eb\source\repos\KirstenDemo\obj\Debug\netcoreapp3.1\KirstenDemo.AssemblyInfo.cs
+C:\Users\ybu8eb\source\repos\KirstenDemo\obj\Debug\netcoreapp3.1\KirstenDemo.csproj.CoreCompileInputs.cache
+C:\Users\ybu8eb\source\repos\KirstenDemo\obj\Debug\netcoreapp3.1\KirstenDemo.dll
+C:\Users\ybu8eb\source\repos\KirstenDemo\obj\Debug\netcoreapp3.1\KirstenDemo.pdb
+C:\Users\ybu8eb\source\repos\KirstenDemo\obj\Debug\netcoreapp3.1\KirstenDemo.genruntimeconfig.cache
+C:\Users\ybu8eb\source\repos\KirstenDemo\obj\Debug\netcoreapp3.1\KirstenDemo.csproj.AssemblyReference.cache
