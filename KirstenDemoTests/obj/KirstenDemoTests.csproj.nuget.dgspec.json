@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemoTests\\KirstenDemoTests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemoTests\\KirstenDemoTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemoTests\\KirstenDemoTests.csproj",
+        "projectName": "KirstenDemoTests",
+        "projectPath": "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemoTests\\KirstenDemoTests.csproj",
+        "packagesPath": "C:\\Users\\ybu8eb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemoTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ybu8eb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Git\\Visual Studio\\PWG": {},
+          "C:\\Git\\Visual Studio\\RIT.UpdateKontur\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\temp\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": ".NETCoreApp,Version=v3.1",
+            "projectReferences": {
+              "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemo\\KirstenDemo.csproj": {
+                "projectPath": "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemo\\KirstenDemo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": ".NETCoreApp,Version=v3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemo\\KirstenDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemo\\KirstenDemo.csproj",
+        "projectName": "KirstenDemo",
+        "projectPath": "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemo\\KirstenDemo.csproj",
+        "packagesPath": "C:\\Users\\ybu8eb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ybu8eb\\source\\repos\\KirstenDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ybu8eb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Git\\Visual Studio\\PWG": {},
+          "C:\\Git\\Visual Studio\\RIT.UpdateKontur\\": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\temp\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.18, 3.1.18]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
