@@ -8,13 +8,13 @@ namespace KirstenDemo
 {
     public class DsData
     {
-        public List<string> columnsToRemove {get; set;}
-        public DataTable dsData { get; set; }
+        private List<string> _columnsToRemove; 
+        private DataTable _dsData;
 
         public DsData(DataTable dsData , List<string> columnsToRemove)
         {
-            this.dsData = dsData;
-            this.columnsToRemove = columnsToRemove;
+            _dsData = dsData;
+            _columnsToRemove = columnsToRemove;
         }
 
         /// <summary>
@@ -22,8 +22,8 @@ namespace KirstenDemo
         /// </summary>
         private void MoveIndholdToLastColumn()
         {
-            int columnsCount = this.dsData.Columns.Count;
-            this.dsData.Columns["Indhold"].SetOrdinal(columnsCount - 1);
+            int columnsCount = _dsData.Columns.Count;
+            _dsData.Columns["Indhold"].SetOrdinal(columnsCount - 1);
         }
 
         /// <summary>
@@ -31,41 +31,40 @@ namespace KirstenDemo
         /// </summary>
         private void RemoveColumns()
         {
-            foreach (var col in columnsToRemove)
+            foreach (var col in _columnsToRemove)
             {
-                this.dsData.Columns.Remove(col);
+                _dsData.Columns.Remove(col);
             }
         }
 
         /// <summary>
         /// Sums Indhold with equal rows 
         /// </summary>
-        /// <returns></returns>
         public Dictionary<string, double> AggreateDataTable()
         {
             MoveIndholdToLastColumn();
             RemoveColumns();
 
-            int columns = this.dsData.Columns.Count;
+            int columns = _dsData.Columns.Count;
 
             Dictionary<string, double> aggData = new Dictionary<string, double>();
 
 
-            foreach (DataRow row in dsData.AsEnumerable())
+            foreach (DataRow row in _dsData.AsEnumerable())
             {
                 StringBuilder thisKey = new StringBuilder();
                 double value = -1;
 
-                for (int i = 0; i < columns-2; i++)
+                for (int i = 0; i < columns-1; i++)
                 {
                     if (i == 0)
                     {
-                        thisKey = thisKey.Append(row[i].ToString());
+                        thisKey.Append(row[i].ToString());
                     }
                     else
                     {
-                        thisKey = thisKey.Append(";");
-                        thisKey = thisKey.Append(row[i].ToString());
+                        thisKey.Append(";");
+                        thisKey.Append(row[i].ToString());
                     }
                 }
 
@@ -93,10 +92,9 @@ namespace KirstenDemo
         /// <summary>
         /// Returns max value for Indhold from datatable
         /// </summary>
-        /// <returns></returns>
         public double GetMaxValue()
         {
-            double maxValue = dsData.AsEnumerable().Max(x => double.Parse(x["Indhold"].ToString()));
+            double maxValue = _dsData.AsEnumerable().Max(x => double.Parse(x["Indhold"].ToString()));
             
             return maxValue;
         }
@@ -104,16 +102,14 @@ namespace KirstenDemo
         /// <summary>
         /// Returns a list whit column names, removed unwanted characters (characters not in validPattern)
         /// </summary>
-        /// <returns></returns>
         public List<string> GetColumnNames()
         {
             List<string> headlines = new List<string>();
 
-            int columns = this.dsData.Columns.Count;
+            int columns = this._dsData.Columns.Count;
             string validPattern = "[^0-9a-zA-Z]";
 
-
-            foreach (DataColumn column in dsData.Columns)
+            foreach (DataColumn column in _dsData.Columns)
             {
                 string columnName = column.ColumnName;
                 columnName = System.Text.RegularExpressions.Regex.Replace(columnName, validPattern, "");
